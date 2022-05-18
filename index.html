@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lion's Mane - Mother Nature</title>
+
+  <!-- Icone da aba do navegador-->
+  <link rel="icon" href="img/red-logo.png">
+  <!-- Tipo de fonte Roboto -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Scripts do Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Tipo de Fonte Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Cabeçalho da página para navegação -->
+  <header>
+    <div class="container" id="nav-container">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="img/white-logo.png" alt="logo da página">Lion's Mane
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" 
+        aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu" href="#">Home</a>
+            <a class="nav-item nav-link" id="function-menu" href="#">Como funciona</a>
+            <a class="nav-item nav-link" id="calvicie-menu" href="#">O que esperar?</a>
+            <a class="nav-item nav-link" id="products-menu" href="#">Produtos</a>
+            <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- *********************************************************************************************** -->
+
+  <!-- Conteudo principal da página -->
+  <main>
+
+    <!-- Carousel -->
+    <div class="container-fluid">
+      <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#mainCarousel" data-slide-to="1"></li>
+          <li data-target="#mainCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <!-- slider 1 -->
+          <div class="carousel-item active">
+            <img src="img/slide1.jpg" class="d-block w-100" alt="Juba de leão">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Seu cabelo mais volumoso que juba de leão.</h5>
+              <a href="#contact-area" class="main-btn">Entre em contato</a>
+            </div>
+          </div>
+          <!-- slider 2 -->
+          <div class="carousel-item">
+            <img src="img/slide2.jpg" class="d-block w-100" alt="mulher com cabelos tratados">
+            <div class="carousel-caption d-none d-md-block">
+              <h2><br> Nossos produtos ativa o crescimento natural do cabelo.</h2>
+              <a href="#products-area" class="main-btn">Ver produtos</a>
+            </div>
+          </div>
+          <!-- slider 3 -->
+          <div class="carousel-item">
+            <img src="img/slide3.jpg" class="d-block w-100" alt="homem apresentando calvicie">
+            <div class="carousel-caption d-none d-md-block">
+              <h2><br> Médicos especialistas para te ajudar.</h2>
+              <a href="#function-area" class="main-btn">Como funciona</a>
+            </div>
+          </div>
+        </div>
+        <!-- setas de controle dos sliders-->
+        <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  <!-- *********************************************************************************************** -->
+
+      <!-- Como funciona -->
+      <div id="function-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h3 class="main-title">Como funciona</h3>
+            </div>
+            <div class="col-md-4 function-box">
+              <i><img src="img/online-questionnaire.png" alt="Questionário online"></i>
+              <h4>Questinário Online</h4>
+              <p>Em poucos minutos você responde perguntas bem importantes a 
+                respeito do seu histórico de saúde para realizarmos uma análise clínica</p>
+            </div>
+            <div class="col-md-4 function-box">
+              <i><img src="img/doctor-visit.png" alt="Diagnóstico médico"></i>
+              <h4>Diagnóstico de Médico Especialista</h4>
+              <p>Um dos médicos especialistas irá cuidar do seu caso. Ele vai avaliar 
+                as suas respostas e o tratamento que você escolheu.</p>
+            </div>
+            <div class="col-md-4 function-box">
+              <i><img src="img/start-your-treatment.png" alt="Começar tratamento"></i>
+              <h4>Comece seu tratamento</h4>
+              <p>Sendo aprovado, o seu pedido será entregue gratuitamente no seu endereço, 
+                de maneira recorrente e com suporte médico durante todo o período.</p>
+            </div>    
+          </div>
+        </div>
+      </div>
+
+      <div id="calvicie-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h3 class="main-title">O que esperar?</h3>
+            </div>
+            <div class="col-md-4 calvicie-box">
+              <i><img src="img/calvicie1.png" alt="inicio do tratamento"></i>
+              <h4>1 a 2 meses</h4>
+              <p>Nos primeiros dois meses, na maioria dos casos ainda não haverá resultados visíveis. 
+                Algumas pessoas podem perceber cabelos mais finos do que antes, isso é temporário e normal.
+              </p>
+            </div>
+            <div class="col-md-4 calvicie-box">
+              <i><img id="calvicie2" src="img/calvicie2.png" width="124" height="177" 
+                alt="3 meses de tratamento"></i>
+              <h4>3 a 6 meses</h4>
+              <p>Neste período você perceberá que a queda de cabelo reduziu muito, parou ou até mesmo 
+                foi revertida para crescimento de novos fios.</p>
+            </div>
+            <div class="col-md-4 calvicie-box">
+              <i><img id="calvicie3" src="img/calvicie3.png" width="124" height="177" 
+                alt="6 meses de tratamento"></i>
+              <h4>6 meses em diante</h4>
+              <p>A partir desta fase, a queda deverá ter reduzido consideravelmente ou até mesmo parado e 
+              perceberá resultados visíveis no volume do cabelo.</p>
+            </div>    
+          </div>
+        </div>
+      </div>
+  <!-- *********************************************************************************************** -->
+
+      <!-- O que esperar -->
+      <div id="expect-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Homens que fizeram o tratamento</h3>
+            </div>
+            <!-- Perfil 1 -->
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/h1-before.png" class="card-img-top" alt="Cabelo de Lucas antes do tratamento">
+                <div class="card-body">
+                  <h5 class="card-title">Lucas</h5>
+                  <p class="card-text">Antes</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/h1-after.png" class="card-img-top" alt="Cabelo de Lucas depois do tratamento">
+                <div class="card-body">
+                  <h5 class="card-title">Lucas</h5>
+                  <p class="card-text">Depois</p>
+                </div>
+              </div>
+            </div>
+            <!-- Perfil 2 -->
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/h2-before.png" class="card-img-top" alt="Cabelo de Paulo antes do tratamento">
+                <div class="card-body">
+                  <h5 class="card-title">Paulo</h5>
+                  <p class="card-text">Antes</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/h2-after.png" class="card-img-top" alt="Cabelo de Paulo depois do tratamento">
+                <div class="card-body">
+                  <h5 class="card-title">Paulo</h5>
+                  <p class="card-text">Depois</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- *********************************************************************************************** -->
+
+      <!-- Portfólio -->
+      <div id="products-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Nossos Produtos</h3>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/Finasteride.png" class="card-img-top" alt="Finasteride">
+                <div class="card-body">
+                  <h5 class="card-title">Finasterida</h5>
+                  <p class="card-text">Bloqueador do hormônio DHT, é o medicamento mais 
+                    utilizado no mundo contra a calvície.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/Dutasterida.png" class="card-img-top" alt="Dutasterida">
+                <div class="card-body">
+                  <h5 class="card-title">Dutasterida</h5>
+                  <p class="card-text">O mais potente tratamento para bloqueio do hormônio DHT, 
+                    que está relacionado ao afinamento dos fios e queda capilar.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/Minoxidil.png" class="card-img-top" alt="Minoxidil">
+                <div class="card-body">
+                  <h5 class="card-title">Minoxidil</h5>
+                  <p class="card-text">Solução capilar que ativa os folículos do cabelo e 
+                    promove o crescimento dos fios.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/SawPalmetto.png" class="card-img-top" alt="SawPalmetto">
+                <div class="card-body">
+                  <h5 class="card-title">Saw Palmetto</h5>
+                  <p class="card-text">Uma opção natural para um tratamento mais brando, substitui a 
+                    Finasterida / Dutasterida no bloqueio do DHT.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- *********************************************************************************************** -->
+
+      <!-- Novidades -->
+      <div id="news-area">
+        <div class="container">
+          <div class="col-md-12">
+            <h3 class="main-title">Fique por dentro das novidades</h3>
+          </div>
+          <p>Assine e receba nossos produtos em casa</p>
+          <form action="#form-area">
+            <input type="text" class="form-control" id="email-input" name="email" 
+            placeholder="E-mail principal">
+            <input type="submit" id="news-btn" value="Inscrever">
+          </form>
+        </div>
+      </div>
+
+      <!-- Cadastrar -->
+      <div id="register-area">
+        <div class="container">
+            <div class="row">
+              <p>Receba promoções</p>
+              <form action="#form-area">
+                <button class="main-btn" id="register-btn" >Cadastrar</button>
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+  <!-- *********************************************************************************************** -->
+
+  </main>
+  <!-- *********************************************************************************************** -->
+
+     <!-- Rodapé -->
+     <footer>
+      <div id="contact-area">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="main-title">Entre em contato conosco</h3>
+              </div>
+              <div class="col-md-4 contact-box">
+                <i class="fas fa-phone"></i>
+                <p><span class="contact-tile">Ligue para:</span> (11) 94002-8922</p>
+                <p><span class="contact-tile">Horários:</span> 8:00 - 22:00</p>
+              </div>
+              <div class="col-md-4 contact-box">
+                <i class="fas fa-envelope"></i>
+                <p><span class="contact-tile">Envie um email:</span> 
+                  <a target="_blank" href="https://outlook.live.com/owa/">contatolionsmane@mothernature.com</a></p>
+              </div>
+              <div class="col-md-4 contact-box">
+                <i class="fas fa-map-marker-alt"></i>
+                <p><span class="contact-tile">Endereço:</span> Rue Notting Hill, 19, Paris</p>
+              </div>
+              <div class="col-md-6" id="msg-box">
+                <p>Ou nos deixe uma mensagem:</p>
+              </div>
+              <div class="col-md-6" id="contact-form">
+                <form action="">
+                  <input type="text" class="form-control" placeholder="E-mail" name="email">
+                  <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                  <textarea class="form-control" rows="3" placeholder="Digite aqui sua mensagem" 
+                  name="message"></textarea>
+                  <input type="submit" class="main-btn">
+                </form>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  <!-- *********************************************************************************************** -->
+
+      <!-- QR Code -->
+      <div id="qrcode-area">
+        <div class="container">
+          <div class="col-md-12">
+            <p>Acesse o QR Code abaixo para mais informações</p>
+            <img src="img/qr code.png" class="img-fluid" alt="QR code">
+          </div>
+        </div>
+      </div>
+  
+      <!-- Copyright -->
+      <div id="copy-area">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                <p>Desenvolvido por <a href="" >Jonas F.</a> &copy; 
+                  Copyright Mother Nature 2021 - Todos os direitos reservados</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  <!-- Scripts do projeto -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+/**************** Geral ****************/
+body{ font-family: 'Roboto'}
+
+.row{ margin: 0; }
+
+.container{ padding: 70px 0; }
+
+p, li{ color: #444; font-size: 14px; }
+
+
+/**************** Barra de navegação ****************/
+header, .navbar{ background: linear-gradient(72deg, #be0d0d 1%, #5c1616 93%)  }
+
+#nav-container{ padding-top: 0; padding-bottom: 0; }
+
+#logo{ width: 75px; }
+
+.navbar-brand{ padding: 0; color: #FFF; }
+
+.navbar-brand:hover{ color: #FFF; }
+
+#navbar-links a{ color: #FFF; }
+
+.navbar-expand-lg .navbar-nav .nav-link{ padding: 1rem .8rem; }
+
+.nav-item.active{ border-bottom: 3px solid #FFF; }
+
+
+/**************** Sliders ****************/
+.container-fluid{ padding: 0; }
+
+#mainCarousel .carousel-inner, #mainCarousel .carousel-item{ height: 90vh; }
+
+#mainCarousel .carousel-caption{ top: 30%; }
+
+#mainCarousel .carousel-caption h2{ 
+  font-weight: 500; 
+  font-size: 50px; 
+  margin-bottom: 90px; 
+  color: rgb(255, 255, 255); }
+
+#mainCarousel .carousel-caption p{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 100px;
+  color:rgb(255, 255, 255);
+}
+
+#mainCarousel .carousel-caption h1{ margin-bottom: 90px; font-size: 70px}
+
+.main-btn{
+  background-color: rgb(145, 14, 14);
+  color: #FFF;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: .5s;
+}
+
+.main-btn:hover{
+  text-decoration: none;
+  color: #FFF;
+  background-color: transparent;
+  border-color: #990e0e;
+}
+
+.carousel-indicators .active{ background-color: #990e0e; }
+
+
+/**************** Como funciona ****************/
+#function-area{ background-color: white; }
+
+.main-title{
+  color: #444;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.main-title::after{
+  content: "";
+  border-top: 2px solid #333;
+  width: 15%;
+  position: absolute;
+  top: 60px;
+  left: 42.5%;
+}
+
+#calvicie-area{background: linear-gradient(72deg, #f5eaea 1%, #c7c4c4 93%)}
+
+
+/**************** O que esperar ****************/
+.function-box { text-align: center; margin-bottom: 50px; }
+
+.function-box i, .function-box h4{ transition: .5s; }
+
+.function-box i{ font-size: 36px; margin-bottom: 20px; color: #444; }
+
+.function-box h4{ font-size: 24px; margin-bottom: 20px; }
+
+.function-box:hover > i, .function-box:hover > h4{ color: #aa1818; } 
+
+
+.calvicie-box { text-align: center; margin-bottom: 50px; }
+
+.calvicie-box i, .calvicie-box h4{ transition: .5s; }
+
+.calvicie-box i{ font-size: 36px; margin-bottom: 20px; color: #444; }
+
+.calvicie-box h4{ font-size: 24px; margin-bottom: 20px; }
+
+.calvicie-box:hover > i, .calvicie-box:hover > h4{ color: #aa1818; }
+
+
+/**************** Tratamento ****************/
+.card-body{ text-align: center; }
+
+
+/**************** Novidades ****************/
+#news-area{ text-align: center; background: linear-gradient(72deg, #6b6969 1%, #e6d9d9 93%) }
+
+#news-area p{ font-size: 18px; margin-bottom: 40px; }
+
+#email-input{
+  border-radius: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid #ad1111;
+  display: inline;
+  box-sizing: border-box;
+  width: 40%;
+  height: 40px;
+}
+
+#news-btn{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid #f96565;
+  background-color: #b80d0d;
+  color: #FFF;
+  text-transform: uppercase;
+  height: 40px;
+  padding: 0 30px;
+  margin-left: -130px;
+  position: absolute;
+  transition: .5s;
+}
+
+#news-btn:hover{ background-color: #FFF; color: #f96565; }
+
+
+/**************** Cadastrar ****************/
+#register-area{ background: linear-gradient(72deg, #be0d0d 1%, #5c1616 93%) }
+
+#register-area .container{ padding: 40px 100px; }
+
+#register-area .row{ display: block; text-align: center; }
+
+#register-area p{
+  color: #FFF;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+  height: 60px;
+  line-height: 60px;
+  letter-spacing: 2px;
+  display: inline;/*deixar o botão na frente do texto*/
+}
+
+#register-area #register-btn{
+  background-color: #FFF;
+  color: #ac1212;
+  font-weight: bold;
+  margin-left: 30px;
+  font-size: 20px;
+  width: auto;
+  letter-spacing: 2px;
+}
+
+
+/**************** Footer ****************/
+#contact-area{ text-align: center; }
+
+.contact-box{ padding-bottom: 50px; margin-bottom: 50px; border-bottom: 1px solid #a51212; }
+
+.contact-box i{
+  color: #444;
+  border: solid 1px #444;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-box p{ font-size: 16px; }
+
+.contact-tile{ font-weight: bold; color: #a51212; }
+
+#msg-box p{ font-size: 22px; }
+
+#contact-form input[type="text"], #contact-form textarea{ margin-bottom: 15px; border-radius: 0; }
+
+#contact-form .main-btn{ width: 120px; height: 50px; }
+
+#contact-form .main-btn:hover{ color: #a51212; }
+
+#contact-area .container a{ color: #444 }
+
+#contact-area .container a:hover{ text-decoration: none; color: #e64949; }
+
+
+/**************** QR code ****************/
+#qrcode-area{ text-align: center; }
+
+#qrcode-area p{ font-size: 18px; margin-bottom: 40px; }
+
+
+/**************** Copyright ****************/
+#copy-area{ background: linear-gradient(72deg, #b92e2e 1%, #5c1616 93%) }
+
+#copy-area .container{ padding: 10px 0; text-align: center; }
+
+#copy-area .container p{ margin-bottom: 0; color: white;}
+
+#copy-area .container a{ font-weight: bold; color: rgb(240, 235, 235); }
+
+#copy-area .container a:hover{ text-decoration: none; color: #070707; }
+
+
+/**************** Formulario ****************/
+#form-area{
+  background: linear-gradient(72deg, #fdfdfd 1%, #888585 93%);
+  margin: 0;
+  padding: 70px 0;
+}
+
+#form-area label{color: rgb(8, 2, 2);}
+
+
+/**************** Responsivo celular ****************/
+@media(max-width: 425px){
+  /**************** slider ****************/
+  #mainCarousel { margin-top: 90px; }
+
+  #mainCarousel .carousel-caption{ top: 100%; }
+
+  #mainCarousel .carousel-caption h2{ font-size: 5px; margin-bottom: 40px; }
+
+  #mainCarousel .carousel-caption p{ display: none; }
+
+  .carousel-caption .main-btn{ font-size: 9px; }
+
+  .main-title{ font-size: 30px; }
+
+  #expect-area .col-md-3{ width: 50%; margin-bottom: 30px; }
+
+  #expect-area .main-title{font-size: 25px;}
+
+  /**************** prtifolio ****************/
+
+  #products-area .col-md-3{width: 50%; margin-bottom: 30px;}
+
+  #product-area .filter-btn{ margin-bottom: 20px; }
+
+  /**************** news ****************/
+  #news-area .main-title{ font-size: 24px; }
+
+  #news-area p{ font-size: 16px; }
+
+  #email-input{ width: 80%; }
+
+  #register-area p, #register-area #register-btn{ font-size: 15px; letter-spacing: 0; }
+
+  #register-area p, #register-area #register-btn{ margin: 0; width: 100%; }
+
+  /**************** contato ****************/
+  #contact-area .main-title{ font-size: 24px; }
+  
+  .contact-box{ border: none; margin-bottom: 0; }
+
+  /**************** formulario ****************/
+
+  #form-area .container{width: 75%;}
+  
+  #form-area .col-md-4{width: 50%; margin-bottom: 30px;}
+  
+  #form-area .col-md-2{width: 50%; margin-bottom: 30px;}
+}
